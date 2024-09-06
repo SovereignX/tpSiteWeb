@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-Nous</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div class="page-contact">
+        <h1>CONTACTEZ-NOUS</h1>
+        <p>Nous sommes la pour vous</p>
+        <form>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre Nom" required minlength="2" maxlength="10">
+
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre Prenom" required minlength="2" maxlength="10">
+
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" placeholder="exemple@email.com" required minlength="2" maxlength="20">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Ecrivez-Nous" required minlength="2" maxlength="100"></textarea>
+
+            <div class="fichier">
+                <input type="file" id="fichier" name="fichier">
+                <label for="fichier">Choisir un fichier</label>
+                <span>Aucun fichier n'a été sélectionné</span>
+            </div>
+
+            <button type="submit">ENVOYER</button>
+        </form>
+    </div>
+</body>
+</html>
